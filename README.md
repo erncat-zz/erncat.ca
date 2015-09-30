@@ -3,7 +3,7 @@
 ## Who am I?
 
 Hi, I'm Erin. I'm a graphic designer & illustrator based out of the Ottawa/Gatineau Region. 
-I specialize in wedding and special event print and 3d design materials. I'd love to play a part in making your special event as amazing as possible!
+I specialize in wedding and special event print and 3d materials. I'd love to play a part in making your special event as amazing as possible!
 
 ## Why do I do what I do?
 
