@@ -7,19 +7,76 @@
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
     
-<header>
+<ul class="skip-links">
+    <li><a href="#navigation">Jump to navigation</a></li>
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#contact">Jump to contact</a></li>
+</ul>
+    
+<header class="header" id="top">
+        <div class="grid">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                <a href="index.html">
+                    <img class="logo push-0" src="images/erncat-e.svg" alt="erncat">
+                </a>
+            </div>
+
+            <div class=" panel unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                <div class="navigation nav-bars" id="navigation" role="navigation">
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="#about">Erin</a>
+                            </li>
+                            <li><a href="#portfolio">Portfolio</a>
+                            </li>
+                            <li><a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
     <img class="top-image" src="images/placeholder.jpg" alt="placeholder">
     
-    <div class="hello">
-        <h1 class="head-text">Hi,</h1>
-        <h2 class="intro-text">I'm Erin!</h2>
-    </div>
 </header>
     
-<body>
+<body id="main">
     
+ <div class="hello">
+    <h1 class="head-text">Hi,</h1>
+    <h2 class="intro-text">I'm Erin!</h2>
+</div>
+
+<div class="portfolio island">
+    <div class="grid">
+    </div>
+</div>
+
+<div class="footer" id="contact">
+    <div class="grid socialcontainer">
+        <div class="social unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4">
+            <a href="mailto:hello@erncat.ca?"><img class="fade" src="images/mail.svg" alt="email"></a>
+        </div>
+        <div class="social unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4">
+            <a href="https://www.behance.net/erncat"><img class="fade" src="images/Behance.svg" alt="behance"></a>
+        </div>
+        <div class="social unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4">
+            <a href="https://vimeo.com/erncat"><img class="fade" src="images/vimeo.svg" alt="vimeo"></a>
+        </div>
+        <div class="social unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4">
+            <a href="https://instagram.com/erncat/"><img class="fade" src="images/insta.svg" alt="Instagram"></a>
+        </div>
+        <div class="social unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4">
+            <a href="https://twitter.com/erncatdesign"><img class="fade" src="images/twitter.svg" alt="Twitter"></a>
+        </div>
+        <div class="social unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4">
+            <a href="https://www.facebook.com/erncat91"><img class="fade" src="images/facebook.svg" alt="facebook"></a>
+        </div>
+    </div>
+</div>
     
 </body>
