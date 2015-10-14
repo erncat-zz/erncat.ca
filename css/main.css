@@ -45,7 +45,7 @@ body {
 .top-image {
     background-image: url(../images/placeholder.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     overflow: hidden;
