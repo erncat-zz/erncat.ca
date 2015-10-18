@@ -42,14 +42,15 @@ body {
     padding: 0;
 }
 
-.logo {
-    height: 65px;
-    margin: 1em 15% .75em;
-    position: relative;
+header {
+    text-align: center;
+    margin: 0 auto 0;
 }
 
-.logo-box {
-    margin: 0 auto 0;
+.logo {  
+    display: block;
+    margin: 1em auto 0;
+    width: 180px;
 }
 
 .nav a,
@@ -84,11 +85,12 @@ nav {
     text-align: center;
     width: 100%;
     display:inline-block;
-    margin: 2em auto 0;
+    margin: 1em auto 1em;
 }
 
 .navigation {
     text-align: center;
+    margin: 0 auto 0;
 }
     
 nav ul {
@@ -123,15 +125,20 @@ h1 {
     font-size: 3.5em;
 }
 
-.down {
-    width: 65px;
-    height: 65px;
+.direction {
+    max-width: 65px;
+    max-height: 65px;
     margin: 1em auto 0;
 }
 
-.downportfolio {
+.arrow {
     -webkit-transition: all 500ms linear;
-    transition: all 500ms linear;
+    transition: all 1s linear ease;
+}
+
+#arrow a {
+    -webkit-transition: 1s;
+    transition: 1s;
 }
 
 .hello {
@@ -189,7 +196,7 @@ h1 {
 
 .portfolio {
     width: 85%;
-    margin: 6em auto 6em;
+    margin: 3em auto 6em;
 }
 
 .piece {
@@ -212,7 +219,24 @@ footer {
     }
     
     .nav {
-        margin: 0 1em 0;
+        margin: .75em 1em 0;
+        text-align: right;
+    }
+    
+    .aboutme p {
+        margin: 0 auto 0;
+        width: 60%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 38em) {
+    .logo {
+        margin: 1em 1em .75em;
+    }
+    
+    .nav {
+        margin: .75em 1em 0;
         text-align: right;
     }
     
