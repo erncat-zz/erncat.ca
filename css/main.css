@@ -52,17 +52,6 @@ body {
     margin: 0 auto 0;
 }
 
-@media only screen and (min-width: 38em) {
-    .logo {
-        margin: 1em 1em .75em;
-    }
-    
-    .nav {
-        margin: 0 1em 0;
-        text-align: right;
-    }
-}
-
 .nav a,
 .nav a:link,
 .nav a:visited {
@@ -169,6 +158,10 @@ h1 {
     margin: 6em auto 0;
 }
 
+.aboutme p {
+    text-align: justify;
+}
+
 .socialcontainer {
     margin:0 30% 0;
 }
@@ -211,4 +204,21 @@ footer {
     background-color: #ff9d6c;
     width: 100%;
     bottom: 0;
+}
+
+@media only screen and (min-width: 38em) {
+    .logo {
+        margin: 1em 1em .75em;
+    }
+    
+    .nav {
+        margin: 0 1em 0;
+        text-align: right;
+    }
+    
+    .aboutme p {
+        margin: 0 auto 0;
+        width: 60%;
+        text-align: justify;
+    }
 }
