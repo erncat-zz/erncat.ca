@@ -165,7 +165,7 @@ h1 {
 
 .aboutme {
     text-align: center;
-    width: 50%;
+    width: 80%;
     margin: 6em auto 0;
 }
 
@@ -196,8 +196,7 @@ h1 {
 
 .portfolio {
     width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 6em auto 6em;
 }
 
 .piece {
