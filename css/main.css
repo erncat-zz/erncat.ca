@@ -302,6 +302,7 @@ h1 {
 }
 
 .aboutme p {
+    padding-top: 1em;
     text-align: justify;
 }
 
