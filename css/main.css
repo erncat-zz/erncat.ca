@@ -17,6 +17,22 @@ html {
     box-sizing: inherit;
 }
 
+hr {
+    color: grey;
+    width: 85%;
+    border: 0;
+    border-top: 2px solid;
+    margin: 3em auto 3em;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.orange {
+    color: #ff9d6c;
+}
+
 .skip-links {
     margin: 0;
     padding: 0;
@@ -136,6 +152,7 @@ h1 {
     position: relative;
     overflow: hidden;
     width: 100%;
+    padding-bottom: 15em;
 }
 
 .carousel-open:checked + .carousel-item {
@@ -155,7 +172,6 @@ h1 {
     height: auto;
     height: 600px;
     width: 100%;
-    background-color: salmon;
     background-size: cover;
     
 }
@@ -207,7 +223,7 @@ h1 {
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: 2%;
+    bottom: 0;
     left: 0;
     right: 0;
     text-align: center;
@@ -220,14 +236,14 @@ h1 {
 }
 
 .carousel-bullet {
-    color: grey;
+    color: gray;
     cursor: pointer;
     display: block;
     font-size: 30px;
 }
 
 .carousel-bullet:hover {
-    color: orange;
+    color: lightgray;
 }
 
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
@@ -236,7 +252,7 @@ h1 {
 #carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
 #carousel-5:checked ~ .control-5 ~ .carousel-indicators li:nth-child(5) .carousel-bullet,
 #carousel-6:checked ~ .control-6 ~ .carousel-indicators li:nth-child(6) .carousel-bullet {
-    color: #C3D1CB;
+    color: #ff9d6c;
 }
 
 #title {
@@ -256,7 +272,8 @@ h1 {
 /**************** Main *******************/
 
 .portfolio-text {
-    display: inline-block;
+    text-align: center;
+    margin: 0 auto 0;
 
 }
 
@@ -338,13 +355,6 @@ h1 {
     margin: 3em auto 6em;
 }
 
-.piece {
-    margin: 1em auto 1em;
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-}
-
 footer {
     overflow: hidden;
     background-color: #ff9d6c;
@@ -352,22 +362,7 @@ footer {
     bottom: 0;
 }
 
-@media only screen and (min-width: 38em) {
-    .logo {
-        margin: 1em 1em .75em;
-    }
-    
-    .nav {
-        margin: .75em 1em 0;
-        text-align: right;
-    }
-    
-    .aboutme p {
-        margin: 0 auto 0;
-        width: 60%;
-        text-align: justify;
-    }
-}
+
 
 @media only screen and (min-width: 38em) {
     .logo {
@@ -383,5 +378,15 @@ footer {
         margin: 0 auto 0;
         width: 60%;
         text-align: justify;
-    }
+    } 
+    
 }
+
+@media only screen and (min-width: 60em) {
+    
+     .carousel-inner {
+        padding-bottom: 3em;
+    }
+    
+}
+
