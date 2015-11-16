@@ -122,7 +122,9 @@ nav li {
     margin-bottom: 0;
 }
     
-nav a:hover {
+nav a:hover,
+nav a:focus,
+nav a:active {
     color: tomato;
 }
 
@@ -130,7 +132,7 @@ nav a:hover {
     background-image: url(../images/bckgrnd.png);
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 80vh;
+    height: 25vh;
     width: 100%;
     overflow: hidden;
 }
@@ -218,7 +220,9 @@ h1 {
     right: 2%;
 }
 
-.carousel-control:hover {
+.carousel-control:hover,
+.carousel-control:focus,
+.carousel-control:active {
     background: rgba(0, 0, 0, 0.2);
     color: white;
 }
@@ -256,7 +260,9 @@ h1 {
     font-size: 30px;
 }
 
-.carousel-bullet:hover {
+.carousel-bullet:hover,
+.carousel-bullet:focus,
+.carousel-bullet:active {
     color: lightgray;
 }
 
@@ -346,7 +352,9 @@ h1 {
 	transition: all 0.3s ease-in-out;
 }
 
-.fade:hover {
+.fade:hover,
+.fade:focus,
+.fade:active  {
 	opacity: 0.75;
 }
 
@@ -365,8 +373,13 @@ footer {
 }
 
 @media only screen and (min-width: 23em) {
+    
     .portfolio-pic {
         margin: -2em 0 -2em;
+    }
+    
+    .head-text {
+        margin-top: 1.5em;
     }
 
 }
@@ -392,9 +405,12 @@ footer {
         margin: 0;
     }
     
-}
+    .head-text {
+        margin-top: 2em;
+    }
     
 }
+    
 
 @media only screen and (min-width: 60em) {
     
@@ -407,7 +423,12 @@ footer {
     }
     
     .head-text {
-        font-size: 8em;
+       
+        font-size: 6em;
+    }
+    
+    .top-image {
+        height: 700px;
     }
     
 }
