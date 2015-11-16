@@ -132,7 +132,7 @@ nav a:active {
     background-image: url(../images/bckgrnd.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 28vh;
+    height: 35vh;
     width: 100%;
     overflow: hidden;
 }
@@ -144,7 +144,7 @@ nav a:active {
 
 .head-text {
     padding: 0;
-    margin-bottom: 0;
+    margin-bottom:0 15px 0;
     color: #ff9d6c;
     text-align: center;
     text-shadow: 4px 4px 4px black;
