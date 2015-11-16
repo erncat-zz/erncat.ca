@@ -132,7 +132,7 @@ nav a:active {
     background-image: url(../images/bckgrnd.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 35vh;
+    min-height: 35vh;
     width: 100%;
     overflow: hidden;
 }
@@ -420,7 +420,7 @@ footer {
     }
     
     .hello {
-    margin: 400px auto 15px;
+    margin: 290px auto 15px;
     }
     
     .head-text {
@@ -429,7 +429,7 @@ footer {
     }
     
     .top-image {
-        height: 700px;
+        min-height: 550px;
     }
     
 }
