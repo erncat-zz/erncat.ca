@@ -127,12 +127,25 @@ nav a:hover {
 }
 
 .top-image {
-    background-image: url(../images/Leaves.jpg);
+    background-image: url(../images/bckgrnd.png);
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 80vh;
+    max-height: 1000px;
     width: 100%;
     overflow: hidden;
+}
+
+.hello {
+    margin: 5px auto 15px;
+    width: 100%;  
+}
+
+.head-text {
+    padding: 0;
+    margin-bottom: 0;
+    color: #ff9d6c;
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
 }
 
 h1 {
@@ -294,24 +307,6 @@ h1 {
     transition: 1s;
 }
 
-.hello {
-    margin: 5px auto 15px;
-    width: 100%;  
-}
-
-.head-text {
-    padding: 0;
-    margin-bottom: 0;
-    color: white;
-    text-align: center;
-}
-
-.intro-text {
-    margin: 0;
-    color: white;
-    text-align: center;
-}
-
 .aboutme {
     text-align: center;
     width: 80%;
@@ -345,7 +340,7 @@ h1 {
 }
 
 .fade:hover {
-	opacity: 0.5;
+	opacity: 0.75;
 }
 
 
@@ -389,7 +384,11 @@ footer {
     }
     
     .hello {
-    margin: 550px auto 15px;
+    margin: 400px auto 15px;
+    }
+    
+    .head-text {
+        font-size: 8em;
     }
     
 }
