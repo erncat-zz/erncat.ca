@@ -295,7 +295,7 @@ h1 {
 }
 
 .hello {
-    margin: 20% auto 30%;
+    margin: 5px auto 15px;
     width: 100%;  
 }
 
@@ -386,6 +386,10 @@ footer {
     
      .carousel-inner {
         padding-bottom: 3em;
+    }
+    
+    .hello {
+    margin: 550px auto 15px;
     }
     
 }
