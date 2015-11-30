@@ -129,7 +129,7 @@ nav a:active {
 }
 
 .top-image {
-    background-image: url(../images/bckgrnd.png);
+    background-image: url(../images/bckgrnd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 35vh;
@@ -295,6 +295,7 @@ h1 {
 .portfolio-text {
     text-align: center;
     margin: 1em auto 0;
+    max-width: 350px;
 
 }
 
@@ -303,7 +304,6 @@ h1 {
     margin: -8em 0 -10em;
     
 }
-
 
 .direction {
     max-width: 65px;
@@ -409,6 +409,11 @@ footer {
     .head-text {
         margin-top: 2em;
     }
+    
+    .portfolio-text {
+        max-width: 550px;
+    }
+
     
 }
     
