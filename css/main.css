@@ -129,7 +129,7 @@ nav a:active {
 }
 
 .top-image {
-    background-image: url(../images/bckgrnd.jpg);
+    background-image: url(../images/bckgrnd.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 35vh;
@@ -147,7 +147,6 @@ nav a:active {
     margin-bottom:0 15px 0;
     color: #ff9d6c;
     text-align: center;
-    text-shadow: 4px 4px 4px black;
     font-size: 3em;
 }
 
