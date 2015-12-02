@@ -148,6 +148,7 @@ nav a:active {
     color: #ff9d6c;
     text-align: center;
     font-size: 3em;
+    text-shadow: 2px 2px 2px grey;
 }
 
 
