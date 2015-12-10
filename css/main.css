@@ -369,6 +369,10 @@ h1 {
     margin: 3em auto 6em;
 }
 
+.piece {
+    cursor: pointer;
+}
+
 footer {
     overflow: hidden;
     background-color: #ff9d6c;
