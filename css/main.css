@@ -64,7 +64,7 @@ header {
     margin: 0 auto 0;
 }
 
-.logo {  
+.logo {
     display: block;
     margin: 1em auto 0;
     width: 180px;
@@ -84,7 +84,7 @@ header {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    color: #ff9d6c;
+    color: #6ECB98;
     transition: all 250ms linear;
 }
 
@@ -95,7 +95,7 @@ header {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 200;
-    
+
 }
 
 nav {
@@ -109,12 +109,12 @@ nav {
     text-align: center;
     margin: 0 auto 0;
 }
-    
+
 nav ul {
     margin: 0;
     padding-bottom: 1em;
 }
-    
+
 nav li {
     font-weight: 300;
     list-style-type: none;
@@ -122,7 +122,7 @@ nav li {
     margin: .5em;
     margin-bottom: 0;
 }
-    
+
 nav a:hover,
 nav a:focus,
 nav a:active {
@@ -130,24 +130,23 @@ nav a:active {
 }
 
 .top-image {
-    background-image: url(../images/bckgrnd.png);
+    background-image: url(../images/bckgrnd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 35vh;
+    min-height: 20vh;
     width: 100%;
     overflow: hidden;
 }
 
 .hello {
     margin: 5px auto 15px;
-    width: 100%;  
+    width: 100%;
 }
 
 .head-text {
     padding: 0;
-    margin-bottom:0 15px 0;
-    color: #ff9d6c;
-    text-align: center;
+    color: #6ECB98;
+    margin-left: 1em;
     font-size: 3em;
     text-shadow: 2px 2px 2px grey;
 }
@@ -191,7 +190,7 @@ h1 {
     height: 600px;
     width: 100%;
     background-size: cover;
-    
+
 }
 
 .carousel-control {
@@ -274,7 +273,7 @@ h1 {
 #carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
 #carousel-5:checked ~ .control-5 ~ .carousel-indicators li:nth-child(5) .carousel-bullet,
 #carousel-6:checked ~ .control-6 ~ .carousel-indicators li:nth-child(6) .carousel-bullet {
-    color: #ff9d6c;
+    color: #6ECB98;
 }
 
 #title {
@@ -303,7 +302,7 @@ h1 {
 .portfolio-pic {
     padding: 0;
     margin: -8em 0 -10em;
-    
+
 }
 
 .direction {
@@ -375,17 +374,17 @@ h1 {
 
 footer {
     overflow: hidden;
-    background-color: #ff9d6c;
+    background-color: #6ECB98;
     width: 100%;
     bottom: 0;
 }
 
 @media only screen and (min-width: 23em) {
-    
+
     .portfolio-pic {
         margin: -2em 0 -2em;
     }
-    
+
     .head-text {
         margin-top: 1.5em;
     }
@@ -397,53 +396,53 @@ footer {
     .logo {
         margin: 1em 1em .75em;
     }
-    
+
     .nav {
         margin: .75em 1em 0;
         text-align: right;
     }
-    
+
     .aboutme p {
         margin: 0 auto 0;
         width: 60%;
         text-align: justify;
-    } 
-    
+    }
+
     .portfolio-pic {
         margin: 0;
     }
-    
+
     .head-text {
         margin-top: 2em;
     }
-    
+
     .portfolio-text {
         max-width: 550px;
     }
 
-    
+
 }
-    
+
 
 @media only screen and (min-width: 60em) {
-    
+
      .carousel-inner {
         padding-bottom: 3em;
     }
-    
+
     .hello {
     margin: 290px auto 15px;
     }
-    
+
     .head-text {
-       
+
         font-size: 6em;
     }
-    
+
     .top-image {
         min-height: 600px;
     }
-    
+
 }
 
 /**************** 404 *******************/
@@ -488,7 +487,7 @@ footer {
 .back-to-home .nav-current,
 .back-to-home .nav-current:link,
 .back-to-home .nav-current:visited {
-    color: #ff9d6c;
+    color: #6ECB98;
     transition: all 250ms linear;
 }
 
@@ -500,5 +499,5 @@ footer {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 200;
-    
+
 }
