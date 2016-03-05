@@ -132,10 +132,11 @@ nav a:active {
 .top-image {
     background-image: url(../images/bckgrnd.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-color: #F9F9F9;
     min-height: 20vh;
     width: 100%;
-    overflow: hidden;
 }
 
 .hello {
@@ -309,6 +310,7 @@ h1 {
     max-width: 65px;
     max-height: 65px;
     margin: 1em auto 0;
+    position: relative;
 }
 
 .arrow {
@@ -316,12 +318,19 @@ h1 {
     transition: all 1s linear ease;
     display: block;
     margin: 0 auto 0;
-    width: 60%;
+    width: 50%;
 }
 
 #arrow a {
     -webkit-transition: 1s;
     transition: 1s;
+}
+
+.down {
+  width: 40px;
+  display: block;
+  left: calc(50% - 20px);
+
 }
 
 .aboutme {
@@ -421,7 +430,8 @@ footer {
         max-width: 550px;
     }
     .top-image {
-      min-height: 60vh;
+      height: 30vh;
+      max-height: 65em;
     }
 
 }
@@ -433,15 +443,18 @@ footer {
         padding-bottom: 3em;
     }
 
-    .hello {
+    /*.hello {
     margin: 290px auto 15px;
-    }
+    }*/
 
     .head-text {
 
         font-size: 6em;
     }
-
+    .top-image {
+      height: 60vh;
+      max-height: 65em;
+    }
 
 }
 
